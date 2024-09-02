@@ -15,17 +15,23 @@ import { Button } from "../ui/button";
 import Logo from "./Logo";
 
 import { navbarLinks } from "@/config/landing-page-config";
+import { ModeToggle } from "./ModeToggle";
 
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
-      <SheetTrigger asChild>
-        <Button className="md:hidden" variant="default">
-          <Menu className="flex h-5 w-5" />
-        </Button>
-      </SheetTrigger>
+      <div className="flex gap-2">
+        <div className="md:hidden">
+          <ModeToggle />
+        </div>
+        <SheetTrigger asChild>
+          <Button className="md:hidden" variant="default">
+            <Menu className="flex h-5 w-5" />
+          </Button>
+        </SheetTrigger>
+      </div>
 
       <SheetContent side="left">
         <SheetHeader className="border-b-[1px]">

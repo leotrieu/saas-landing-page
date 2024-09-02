@@ -11,6 +11,7 @@ import Logo from "./Logo";
 
 import { navbarLinks } from "@/config/landing-page-config";
 import MobileNav from "./MobileNav";
+import { ModeToggle } from "./ModeToggle";
 
 export const Navbar = () => {
   return (
@@ -38,6 +39,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
+            <ModeToggle />
             <Button asChild variant="default">
               <Link href="/auth/login">Get started</Link>
             </Button>
