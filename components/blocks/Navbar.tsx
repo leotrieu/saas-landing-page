@@ -10,6 +10,7 @@ import { Button } from "../ui/button";
 import Logo from "./Logo";
 
 import { navbarLinks } from "@/config/landing-page-config";
+import MobileNav from "./MobileNav";
 
 export const Navbar = () => {
   return (
@@ -19,6 +20,9 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex">
             <Logo />
           </NavigationMenuItem>
+
+          {/* mobile */}
+          <MobileNav />
 
           {/* desktop */}
           <nav className="hidden md:flex gap-2">
