@@ -79,3 +79,50 @@ export const features = [
     description: "Streamline email communication with react-email and Resend",
   },
 ];
+
+// TESTIMONIALS
+export const testimonials = [
+  {
+    image: "https://i.pravatar.cc/150?img=45",
+    name: "Emily Davis",
+    userName: "@emily_d",
+    comment:
+      "I love this product as it saves me tons of time. It's incredibly easy to use and has quickly become an essential part of my daily routine.",
+  },
+  {
+    image: "https://i.pravatar.cc/150?img=68",
+    name: "Michael Brown",
+    userName: "@mike_brown",
+    comment:
+      "This app is a game changer for my daily routine! It streamlines my tasks and helps me stay organized, making my life so much simpler.",
+  },
+
+  {
+    image: "https://i.pravatar.cc/150?img=38",
+    name: "Sophia Johnson",
+    userName: "@sophia_j",
+    comment:
+      "Simply the best investment I've made this year. The efficiency it brings to my workflow is unmatched, and it's worth every penny.",
+  },
+  {
+    image: "https://i.pravatar.cc/150?img=25",
+    name: "David Wilson",
+    userName: "@david_w",
+    comment:
+      "Amazing tool—it's made my work so much easier. I can't believe how much more productive I am now, thanks to this fantastic product.",
+  },
+  {
+    image: "https://i.pravatar.cc/150?img=15",
+    name: "Olivia Martinez",
+    userName: "@olivia_m",
+    comment:
+      "A must-have for anyone who values their time. This product has transformed the way I manage my schedule and has been a huge time-saver.",
+  },
+  {
+    image: "https://i.pravatar.cc/150?img=29",
+    name: "James Taylor",
+    userName: "@james_t",
+    comment:
+      "This product has exceeded all my expectations! It's intuitive, reliable, and has significantly improved my daily workflow and productivity.",
+  },
+];
