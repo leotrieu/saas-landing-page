@@ -1,5 +1,9 @@
-import Logo from "@/components/blocks/Logo";
+import { Navbar } from "@/components/blocks/Navbar";
 
 export default function Home() {
-  return <Logo />;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
