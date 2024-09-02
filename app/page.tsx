@@ -1,6 +1,7 @@
 import Features from "@/components/blocks/Features";
 import { Hero } from "@/components/blocks/Hero";
 import { Navbar } from "@/components/blocks/Navbar";
+import Pricing from "@/components/blocks/Pricing";
 import Testimonials from "@/components/blocks/Testimonials";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Testimonials />
+      <Pricing />
     </>
   );
 }
