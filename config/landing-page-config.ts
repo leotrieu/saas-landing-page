@@ -209,3 +209,30 @@ export const FAQs = [
     value: "item-5",
   },
 ];
+
+// FOOTER
+export const footer = [
+  {
+    title: "Links",
+    links: [
+      { url: "/pricing", name: "Pricing" },
+      { url: "/documentation", name: "Documentation" },
+      { url: "/support", name: "Support" },
+    ],
+  },
+  {
+    title: "Social Media",
+    links: [
+      { url: "#", name: "Github" },
+      { url: "#", name: "Instagram" },
+      { url: "#", name: "Facebook" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      { url: "/terms", name: "Terms and conditions" },
+      { url: "/policy", name: "Privacy policy" },
+    ],
+  },
+];

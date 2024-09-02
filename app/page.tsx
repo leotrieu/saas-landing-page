@@ -1,5 +1,6 @@
 import FAQ from "@/components/blocks/FAQ";
 import Features from "@/components/blocks/Features";
+import Footer from "@/components/blocks/Footer";
 import { Hero } from "@/components/blocks/Hero";
 import { Navbar } from "@/components/blocks/Navbar";
 import Pricing from "@/components/blocks/Pricing";
@@ -14,6 +15,7 @@ export default function Home() {
       <Testimonials />
       <Pricing />
       <FAQ />
+      <Footer />
     </>
   );
 }
