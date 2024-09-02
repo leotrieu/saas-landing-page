@@ -174,3 +174,38 @@ export const packages = [
     ],
   },
 ];
+
+// FAQs
+export const FAQs = [
+  {
+    question: "How is this boilerplate going to help me ship an app faster?",
+    answer:
+      "This boilerplate covers all the standard, time-consuming tasks so you don’t have to. With the basics taken care of, you can focus on building the unique features that set your app apart.",
+    value: "item-1",
+  },
+  {
+    question:
+      "Can I customize the boilerplate to fit the unique requirements of my indie project?",
+    answer:
+      "Yes, definitely! The boilerplate is designed to be highly adaptable. You can easily tweak and modify it to perfectly align with your project’s specific needs and vision.",
+    value: "item-2",
+  },
+  {
+    question: "For how long can I get updates?",
+    answer:
+      "You’ll receive lifetime updates with the source code. This ensures that you always have access to the most up-to-date features and enhancements as they’re released.",
+    value: "item-3",
+  },
+  {
+    question: "Which plan is right for me?",
+    answer:
+      "If you’re an individual developer, the Pro license is your best bet. If you’re part of a team or company, the Enterprise license offers unlimited developer access along with Premium support, making it ideal for collaborative projects.",
+    value: "item-4",
+  },
+  {
+    question: "Can I get a refund?",
+    answer:
+      "Once you gain access, our repo is yours to keep, so refunds aren’t available. However, with our average customers launching in 7 days and lifetime support via Discord, you’ll have everything you need to succeed.",
+    value: "item-5",
+  },
+];
